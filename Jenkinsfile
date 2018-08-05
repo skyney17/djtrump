@@ -11,7 +11,7 @@ node {
            // slackSend color: "warning", message: "Started `${env.JOB_NAME}#${env.BUILD_NUMBER}`\n\n_The changes:_\n${lastChanges}"
 
         stage 'Test'
-        def pypath = tool name: 'python3', type: 'python'
+        def pypath = tool name: 'python3', type: 'jenkins.plugins.shiningpanda.tools.PythonInstallation'
        // def python3 = "${pypath}/bin/python3"
         
        println "${pypath}"
