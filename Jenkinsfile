@@ -12,9 +12,9 @@ node {
 
         stage 'Test'
         def pypath = tool name: 'python3', type: 'python'
-        def python3 = "${pypath}/bin/python3"
+       // def python3 = "${pypath}/bin/python3"
         
-       println "${python3}"
+       println "${pypath}"
             sh 'virtualenv env -p python3'
             sh '. env/bin/activate'
             sh 'env/bin/pip install -r requirements.txt'
