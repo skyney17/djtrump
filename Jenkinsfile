@@ -2,7 +2,7 @@ node {
 
     try {
         stage 'Checkout'
-            wqesdassdasd
+             println "hi"
 
          }
 
