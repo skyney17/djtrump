@@ -2,7 +2,9 @@ node {
 
     try {
         stage 'Checkout'
-            println "this is for testing"
+        sleep 5    
+        wefrfgsdq3
+         
 
          }
 
