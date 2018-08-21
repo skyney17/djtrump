@@ -3,7 +3,7 @@ node {
     try {
         stage 'Checkout'
         sleep 5    
-        wefrfgsdq3
+         println "hi"
          
 
          }
