@@ -4,7 +4,7 @@ node {
 
     try {
         stage 'Checkout'
-           ewdfsdf
+           println "hi"
          }
 
     catch (err) {
