@@ -4,7 +4,7 @@ node {
 
     try {
         stage 'Checkout'
-            checkout scm
+            println "this is for testing"
 
          }
 
